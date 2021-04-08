@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_author"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <instance class="exe.engine.resource.Resource" reference="11">
+   <dictionary>
+    <string role="key" value="_idevice"></string>
+    <none></none>
+    <string role="key" value="_package"></string>
+    <reference key="1"></reference>
+    <string role="key" value="_storageName"></string>
+    <string value="1313.png"></string>
+    <string role="key" value="_userName"></string>
+    <string value="D:\\esvo residencia\\tipo_de_tecnologia\\1313.png"></string>
+    <string role="key" value="checksum"></string>
+    <string value="b0aaa1e912cb5b0826596c2a98263618"></string>
+    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+    <int value="2"></int>
+    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+    <int value="2"></int>
+    <string role="key" value="warningMsg"></string>
+    <string value=""></string>
+   </dictionary>
+  </instance>
+  <string role="key" value="_contextMode"></string>
+  <unicode value="presencial"></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value="classroom"></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value="learner"></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="el_computador"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="7"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="3"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="4">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Inicio"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="3">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="2"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif;&quot;&gt;¿Qué es el soporte técnico informático?&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif;&quot;&gt; El &lt;strong&gt;soporte técnico&lt;/strong&gt; es un área que proporciona asistencia a los usuarios al tener algún problema al utilizar un producto o servicio, ya sea este el hardware o software de una computadora, de un servidor de Internet, de los periféricos, o de cualquier otro equipo o dispositivo.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif;&quot;&gt;Es el servicio que se brindan a empresas o personas que buscan soluciones a las averías sean físicas (hardware) o lógicas (software) de computadora, y lo brinda un personal especializado en informática o mantenimiento de las mismas denominados técnicos.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list></list>
+            <string role="key" value="idevice"></string>
+            <reference key="3"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="0"></int>
+          <string role="key" value="parentNode"></string>
+          <none></none>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="4"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="website"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Inicio"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="7">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Las partes interna de un computador"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="5">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="6">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="5"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;h3 xmlns=&quot;http://www.w3.org/1999/xhtml&quot; id=&quot;sites-page-title-header&quot; align=&quot;left&quot;&gt;&lt;span&gt;Pasemos a ver las partes internas de una CPU&lt;/span&gt;&lt;/h3&gt;
+&lt;table xmlns=&quot;http://www.w3.org/1999/xhtml&quot; cellspacing=&quot;0&quot; class=&quot;sites-layout-name-one-column sites-layout-hbox&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;sites-layout-tile sites-tile-name-content-1&quot;&gt;
+&lt;div dir=&quot;ltr&quot;&gt;
+&lt;div&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;LA PARTE INTERNA DE LA CPU&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;En el interior de un gabinete de computadora, veras cables y conectores yendo y viniendo de un lado a otro, Una cosa que hay que recordar es que cada computadora es distinta en cuanto a su interior.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;   &lt;img src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342968944109/home/la%20cpu.jpg?height=149&amp;amp;width=200&quot; /&gt;              &lt;img src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342968966790/home/interna.jpg?height=157&amp;amp;width=200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;BUS DE DATOS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;El Bus de Datos trabaja en conjunción con el Bus de Direcciones para transportar los datos a través del computador. &lt;/span&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;200&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342915350802/home/BUS%20DE%20DATOS.jpg?height=200&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;CABLE DE DATOS IDE&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;El cable IDE es un tipo de cable, generalmente gris, que se utiliza para conectar un conector IDE de la placa madre  hacia un dispositivo de almacenamiento (especialmente discos duros y unidades de discos ópticos).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/home/%C3%ADndice.jpg?attredirects=0&quot; imageanchor=&quot;1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;200&quot; src=&quot;https://sites.google.com/site/laparteinternadelcomputador/_/rsrc/1343773076308/home/%C3%ADndice.jpg?height=200&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;CABLE DE DATOS SATA&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es una interfaz de transferencia de datos entre la placa base y algunos dispositivos(CD, DVD, etc). SATA proporciona mayores velocidades y mayor longitud del cable de transmisión de datos entre otros beneficios.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/home/images.jpg?attredirects=0&quot; imageanchor=&quot;1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;185&quot; src=&quot;https://sites.google.com/site/laparteinternadelcomputador/_/rsrc/1343773134858/home/images.jpg?height=185&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;DISIPADOR&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Un disipador es un instrumento que se utiliza para bajar la temperatura de algunos componentes electrónicos. Su funcionamiento se basa en la &lt;a href=&quot;http://es.wikipedia.org/wiki/Segunda_ley_de_la_termodin%C3%A1mica&quot; onclick=&quot;browseURL(this); return false&quot; title=&quot;Segunda ley de la termodinámica&quot; rel=&quot;nofollow&quot;&gt;segunda ley de la termodinámica&lt;/a&gt;, transfiriendo el calor de la parte caliente que se desea disipar al &lt;a href=&quot;http://es.wikipedia.org/wiki/Aire&quot; onclick=&quot;browseURL(this); return false&quot; title=&quot;Aire&quot; rel=&quot;nofollow&quot;&gt;aire&lt;/a&gt;. Este proceso se propicia aumentando la superficie de contacto con el aire permitiendo una eliminación más rápida del calor excedente.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/home/fredy.jpg?attredirects=0&quot; imageanchor=&quot;1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;137&quot; src=&quot;https://sites.google.com/site/laparteinternadelcomputador/_/rsrc/1344693286228/home/fredy.jpg?height=137&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;DISCO DURO&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es  una unidad  de almacenamiento  mecánica  compuesta  por  uno  o  mas  platos  de material metálico resistente dispuesto en un eje, encerrado en una cápsula. Son internos y por tanto, unidades fijas que no se pueden extraer.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;177&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342820260803/home/images%20%283%29.jpg?height=177&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;FUENTE DE PODER&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es la parte de la CPU que provee de energía a la tarjeta madre y demás dispositivos internos&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;183&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342821173199/home/images%20%285%29.jpg?height=183&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;MEMORIA RAM (RANDOM ACCESS MEMORY)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es una memoria de acceso aleatorio ya que los datos, se guardan de forma dinámica. Es volátil ya que pierde su información cuando se interrumpe la electricidad en el mismo. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;141&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342969317502/home/memoria%20ram.jpg?height=141&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;PLACA BASE O TARJETA MADRE&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Una tarjeta madre está formada por una serie de circuitos que cumplen una serie de funciones determinadas para el funcionamiento de la  CPU. Los principales componentes de la placa base son:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;· El Socket del CPU. (Hardware)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;· El controlador del teclado. (Firmware).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;· El controlador de DMA´se IRQ´s. (Firmware)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;· Los buses de expansión. (Hardware)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;· La memoria ROM BIOS. (Firmware)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;· El controlador de la caché. (Firmware)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;128&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342969164495/home/tarjeta%20madre.jpg?height=128&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;PROCESADOR&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es un circuito electrónico que actúa como Unidad Central de Proceso de un ordenador, proporcionando el control de las operaciones de cálculo. Se identifica rápido en una tarjeta madre porque esta acoplado a la misma en un socket, tiene forma cuadrada con un pequeño ventilador arriba y generan mucho calor.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;187&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342969050716/home/microprocesador.jpg?height=187&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;RANURA PCI&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Se trata de un tipo de ranura de conexión para tarjetas de aplicación que se encuentran en la placa base del ordenador.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;200&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342970693701/home/pci.jpg?height=200&amp;amp;width=140&quot; width=&quot;140&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;RANURA IDE&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Las unidades IDE se utilizan ampliamente en computadores personales y su capacidad varía de 40 MB a 1 GB. La unidad se conecta a través de un cable de tipo cinta plana de 40 líneas a un adaptador de computador central IDE (con frecuencia llamado controlador IDE), que se enchufa en una ranura de expansión en el computador personal.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/home/images%20%281%29.jpg?attredirects=0&quot; imageanchor=&quot;1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;168&quot; src=&quot;https://sites.google.com/site/laparteinternadelcomputador/_/rsrc/1344702284799/home/images%20%281%29.jpg?height=168&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;RANURA SATA&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es una conexión en serie, en un cable con un mínimo de cuatro alambres que crea una conexión punto a punto  entre dos dispositivos.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/home/sata.jpg?attredirects=0&quot; imageanchor=&quot;1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;179&quot; src=&quot;https://sites.google.com/site/laparteinternadelcomputador/_/rsrc/1344703027712/home/sata.jpg?height=179&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;span color=&quot;#000000&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;TARJETA DE EXPANCIÓN&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Las tarjetas de Expansión como su nombre lo dice, son componentes que tienen como función principal expandir las funciones o servicios de una computadora. En la Actualidad se clasifican por el tipo de sócalo o slot en donde se insertan, esto quiere decir, que existen tarjetas de expansión tipo ISA, PCI PCI Express, CNR y AGP.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/home/fresdi.jpg?attredirects=0&quot; imageanchor=&quot;1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;200&quot; src=&quot;https://sites.google.com/site/laparteinternadelcomputador/_/rsrc/1344698606694/home/fresdi.jpg?height=200&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;TARJETA DE RED&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;Georgia, Times New Roman, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Esta tarjeta permite a la computadora conectarse con otras PC para compartir y utilizar programas y recursos de otro equipo. Se utilizan en Cybercafe, Intranet y para la comunicación de 2 o mas equipos entre si en general. Pueden trabajar a velocidades que van desde los 10 Mbits hasta los 100 Mbits  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;108&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342817361988/home/images%20%288%29.jpg?height=108&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;TARJETA DE SONIDO&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Permite crear audio en el equipo a traves de unas cornetas. Se caracteriza por la presencia de tres conectores redondos con las siglas OUT, MIC, IN o AUX y un conector para conectar joystick de 15 pines distribuido en 2 filas&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;199&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342817054789/home/images%20%287%29.jpg?height=199&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;span face=&quot;Georgia, Times New Roman, serif&quot;&gt;TARJETA DE &lt;/span&gt;&lt;span face=&quot;Georgia, Times New Roman, serif&quot;&gt;VÍDEO&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es una placa electrónica que permite visualizar el trabajo que sé esta realizando en el equipo a través de un monitor. Se caracteriza porque tiene un conector hembra de color celeste o negro de 5, 12 ó 15 Pines distribuido en tres filas (DB 12, DB15).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;159&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342816704755/home/images%20%286%29.jpg?height=159&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;TARJETA USB&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es  un  dispositivo  de  uso  universal  donde  se  puede  conectar  cámaras  digitales,  escaner, impresoras, webcam y cualquier otro dispositivos que se haya fabricado para la tecnología USB. Se identifican porque sus conectores son aplanados.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;137&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1342819401055/home/descarga.jpg?height=137&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;UNIDAD DE DVD&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Es un &lt;a href=&quot;http://es.wikipedia.org/wiki/Disco_%C3%B3ptico&quot; onclick=&quot;browseURL(this); return false&quot; title=&quot;Disco óptico&quot; rel=&quot;nofollow&quot;&gt;disco óptico&lt;/a&gt; de &lt;a href=&quot;http://es.wikipedia.org/wiki/Almacenamiento_de_datos&quot; onclick=&quot;browseURL(this); return false&quot; title=&quot;Almacenamiento de datos&quot; rel=&quot;nofollow&quot;&gt;almacenamiento de datos&lt;/a&gt; cuyo estándar surgió en 1995. Sus siglas corresponden (&lt;i&gt;dis&lt;/i&gt;co versátil digital ). En sus inicios, la &lt;i&gt;v&lt;/i&gt; intermedia hacía referencia a &lt;span color=&quot;#000000&quot; face=&quot;sans-serif&quot;&gt;&lt;i&gt;vídeo&lt;/i&gt; (&lt;/span&gt;digital videodisk), debido a su desarrollo como reemplazo del formato &lt;a href=&quot;http://es.wikipedia.org/wiki/VHS&quot; onclick=&quot;browseURL(this); return false&quot; title=&quot;VHS&quot; rel=&quot;nofollow&quot;&gt;VHS&lt;/a&gt; para la distribución de vídeo a los hogares.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/home/dvd.jpg?attredirects=0&quot; imageanchor=&quot;1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;152&quot; src=&quot;https://sites.google.com/site/laparteinternadelcomputador/_/rsrc/1344704591756/home/dvd.jpg?height=152&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span face=&quot;georgia, serif&quot; style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;VENTILADOR&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;Este es muy importante por que las partes de la cpu no se pueden recalentar y este las mantiene frescas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'times new roman', times, serif; font-size: 18pt;&quot;&gt;&lt;img height=&quot;197&quot; src=&quot;https://sites.google.com/site/laparteinternadelacpu/_/rsrc/1343165360641/home/images.jpg?height=197&amp;amp;width=200&quot; width=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Datos extraídos de :&lt;a href=&quot;https://sites.google.com/site/laparteinternadelcomputador/tarjeta-de-red&quot; title=&quot;LA PARTE INTERNA DEL COMPUTADOR&quot;&gt;https://sites.google.com/site/laparteinternadelcomputador/tarjeta-de-red&lt;/a&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="6"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="7"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Las%20partes%20interna%20de%20un%20computador"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="10">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Actividades"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="8">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="9">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="8"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;iframe width=&quot;795&quot; height=&quot;690&quot; src=&quot;https://es.educaplay.com/juego/8884620-ensamblar_un_pc_virtual.html&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="9"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="6"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="10"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Inicio:Las%20partes%20interna%20de%20un%20computador:Actividades"></string>
+           <string role="key" value="parent"></string>
+           <reference key="7"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="7"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="10"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="1"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="4"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="23261ef0-6523-4f2d-89cd-644ef4466172"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <unicode value="Residencia educativa – ISFD – Profesorado para la educación secundaria de Informática (PESI)
+Alumno: Togachinky Daniel
+Docente Co-formadora: María de los Milagros Soto                                  - Año 2021
+"></unicode>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="public domain"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="other"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="school"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="23261ef0-6523-4f2d-89cd-644ef4466172"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2021-04-08T15:40:58.00-03:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="no"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="presencial"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="classroom"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="23261ef0-6523-4f2d-89cd-644ef4466172"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2021-04-08T15:40:58.00-03:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="public domain"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="b0aaa1e912cb5b0826596c2a98263618"></string>
+   <list>
+    <reference key="11"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="4"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="EducaMadrid"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
